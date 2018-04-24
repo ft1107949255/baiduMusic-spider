@@ -34,10 +34,10 @@ class BadiuMusicSpider():
         driver.find_element_by_xpath('/html/body/header/div/div/a[2]').click()
         time.sleep(2)
         driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__userName"]').clear()
-        driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__userName"]').send_keys('ft1107949255')
+        driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__userName"]').send_keys('your account')
         time.sleep(2)
         driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__password"]').clear()
-        driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__password"]').send_keys('ft6207714498')
+        driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__password"]').send_keys('your password')
         ##如果有验证码
         time.sleep(3)
         try:
